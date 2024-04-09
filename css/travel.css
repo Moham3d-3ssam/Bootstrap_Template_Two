@@ -12,6 +12,12 @@
     scroll-behavior: smooth;
     font-family: "Roboto" , sans-serif;
 }
+::-webkit-scrollbar{
+    background-color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
 /*----------------------------------------------------*/
 /* Start Navbar */
 .navbar{
